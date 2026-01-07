@@ -6,4 +6,4 @@ metadata:
 data:
 {{ (.Files.Glob "files/sample.conf").AsConfig | indent 2 }}
 {{ end }}
-#
+

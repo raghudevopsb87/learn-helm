@@ -4,5 +4,3 @@ metadata:
   name: game-demo-2
 data:
 {{ (.Files.Glob "files/sample.conf").AsConfig | indent 2 }}
-
-#
