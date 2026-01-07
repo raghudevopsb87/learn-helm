@@ -3,4 +3,6 @@ game_score: 5001
 #   enabled: false
 favorite:
   food: none
+cm3:
+  something: something
 
