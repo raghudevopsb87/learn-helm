@@ -7,4 +7,5 @@ data:
   score: "{{ .Values.game_score }}"
   name: "John"
   release_name: {{ .Release.Name }}
+  release_service: {{ .Release.Service: }}
 #
