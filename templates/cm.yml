@@ -8,4 +8,7 @@ data:
   name: "John"
   release_name: {{ .Release.Name }}
   release_service: {{ .Release.Service }}
+  chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+  files: |
+    {{ .Files.Get "sample.conf" | indent 4 }}
 #
