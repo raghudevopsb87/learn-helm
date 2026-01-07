@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: game-demo-2
+data:
+{{ .Files.AsConfig "files/sample.yml" | indent 4 }}
+
+#
