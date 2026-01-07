@@ -4,6 +4,6 @@ metadata:
   name: game-demo
 data:
   player_initial_lives: "3"
-  score: "5000"
+  score: "{{ .Values.game_score }}"
   name: "John"
 
