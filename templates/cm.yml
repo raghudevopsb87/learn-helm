@@ -5,6 +5,7 @@ metadata:
 data:
   player_initial_lives: "3"
   score: {{ quote .Values.game_score }}
+  drink: {{ .Values.favorite.drink | default "tea" | quote }}
   name: "John"
   release_name: {{ .Release.Name }}
   release_service: {{ .Release.Service }}
