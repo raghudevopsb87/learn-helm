@@ -18,3 +18,8 @@ pizzaToppings:
   - pineapple
 
 
+job:
+  enabled: true
+  containers:
+    - name: sample
+      file_name: db/schema.sql
