@@ -9,6 +9,7 @@ data:
   release_name: {{ .Release.Name }}
   release_service: {{ .Release.Service }}
   chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+  template_name: {{ .Template.Name }}
   files: |
 {{ .Files.Get "files/sample.conf" | indent 4 }}
 #
