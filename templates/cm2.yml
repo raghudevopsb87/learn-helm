@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: game-demo-2
 data:
-{{ .Files.AsConfig "files/sample.conf" | indent 4 }}
+{{ (.Files.Glob "files/sample.conf").AsConfig | indent 2 }}
 
 #
