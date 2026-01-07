@@ -1,3 +1,11 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: game-demo-0
+data:
+{{ (.Files.Glob "files/sample.conf").AsConfig | indent 2 }}
+---
 {{ if .Values.cm3.enabled | default false }}
 apiVersion: v1
 kind: ConfigMap
