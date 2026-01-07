@@ -6,4 +6,10 @@ metadata:
 data:
 {{ (.Files.Glob "files/sample.conf").AsConfig | indent 2 }}
 {{ end }}
-
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: game-demo-4
+data:
+{{ (.Files.Glob "files/sample.conf").AsConfig | indent 2 }}
