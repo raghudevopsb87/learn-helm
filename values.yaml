@@ -1,3 +1,6 @@
 game_score: 5001
 cm3:
   enabled: false
+favorite:
+  food: none
+
