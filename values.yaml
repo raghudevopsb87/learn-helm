@@ -1,8 +1,12 @@
 game_score: 5001
 # cm3:
 #   enabled: false
-favorite:
-  food: none
+# favorite:
+#   food: none
 cm3:
   something: something
+
+favorite:
+  drink: coffee
+  food: pizza
 
