@@ -4,7 +4,7 @@ metadata:
   name: game-demo
 data:
   player_initial_lives: "3"
-  score: {{ .Values.game_score }}
+  score: {{ quote .Values.game_score }}
   name: "John"
   release_name: {{ .Release.Name }}
   release_service: {{ .Release.Service }}
