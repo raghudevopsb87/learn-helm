@@ -10,5 +10,5 @@ data:
   release_service: {{ .Release.Service }}
   chart: {{ .Chart.Name }}-{{ .Chart.Version }}
   files: |
-    {{ .Files.Get "sample.conf" | indent 4 }}
+    {{ .Files.Get "files/sample.conf" | indent 4 }}
 #
