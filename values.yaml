@@ -23,3 +23,5 @@ job:
   containers:
     - name: sample
       file_name: db/schema.sql
+    - name: sample2
+      file_name: db/schema.sql
